@@ -36,14 +36,14 @@ body {
     max-width: 25em;
     max-height: auto;
     border-radius: 1.25em;
-    margin: 5em 1.25em;
+    margin: 5em 2.5em;
     display: flex;
     flex-direction: column;
     background-color: hsl(225, 100%, 98%);
 }
 
 .bottom {
-    padding: 0 1.875em;
+    padding: 0 2.5em;
 }
 
 .header {
