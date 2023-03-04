@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.annual {
+    font-weight: 900;
+}
+
+.content,
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.girl {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0;
+}
+
+.card {
+    max-width: 25em;
+    max-height: auto;
+    border-radius: 1.25em;
+    margin: 5em 1.25em;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.bottom {
+    padding: 0 1.875em;
+}
+
+.header {
+    font-weight: bolder;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: .875em 0;
+}
+
+.content {
+    font-size: 1.125rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 1.875em;
+}
+
+.set {
+    display: flex;
+    flex-direction: row;
+}
+
+.plan {
+    font-weight: 1.25rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(225, 100%, 94%, 0.445);
+    padding: 1.25em 0;
+    border-radius: .625em;
+}
+
+
+
+.icon-music,
+a {
+    padding: 0 1.5vw;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875em 0;
+
+}
+
+.confirm,
+.cancel {
+    font-size: 1rem;
+    border: none;
+    padding: 0.9375em 0;
+    border-radius: .625em;
+    font-weight: bolder;
+}
+
+.confirm {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    background-color: hsl(225, 100%, 98%);
+}
+
+a,
+.cancel,
+.confirm {
+    cursor: url(./images/pointinghand.svg), auto;
+}
+
+@media (max-width:440px) {
+
+    .icon-music,
+    a {
+        padding: 0 5vw;
+    }
+
+
+}
